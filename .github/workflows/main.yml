@@ -6,6 +6,8 @@ jobs:
     steps:
       - name: Built step
         run: echo "Built stage"
+      - name: Built2 step
+        run: echo "Build2 stage"
   test:
     runs-on: ubuntu-latest
     steps:
