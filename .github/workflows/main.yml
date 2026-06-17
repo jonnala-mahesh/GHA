@@ -11,5 +11,11 @@ jobs:
     steps:
       - name: Test step
         run: echo "test stage"
+  rele:
+    runs-on: uubuntu-latest
+    needs: test
+    steps:
+      - name: rel step
+        run: echo "rele stage"
 
     
