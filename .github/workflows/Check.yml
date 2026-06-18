@@ -1,0 +1,10 @@
+name: Check
+on: push
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check the code
+        uses: actions/Checkout@v4
+      - name: print
+        run: ./index.html 
