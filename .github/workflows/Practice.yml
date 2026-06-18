@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: var step
-        run: echo "Welocome to ${{ MY_NAME }}"
+        run: echo "Welocome to ${{ vars.MY_NAME }}"
       
