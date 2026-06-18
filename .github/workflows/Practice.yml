@@ -1,0 +1,9 @@
+name: Varibles
+on: push
+jobs:
+  Var:
+    runs-on: ubuntu-latest
+    steps:
+      - name: var step
+        run: echo "Welocome to ${{ MY_NAME }}"
+      
