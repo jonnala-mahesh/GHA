@@ -13,10 +13,10 @@ on:
       artifact_tag:
         description: choose the git tag to deploy
         required: true
-  jobs:
-    inputs-demo:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Deploy the app
-          run: echo "deploy the ${{ inputs.artifact_tag }} application to ${{ inputs.environment }}"  
+jobs:
+  inputs-demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy the app
+        run: echo "deploy the ${{ inputs.artifact_tag }} application to ${{ inputs.environment }}"  
         
