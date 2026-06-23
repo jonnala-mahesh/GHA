@@ -4,7 +4,7 @@ jobs:
   build:
     outputs:
       version: ${{steps.step1.outputs.version}}
-    runs-on: ububuntu-22.04
+    runs-on: ububuntu-latest
     steps:
       - name: build step
         id: step1
