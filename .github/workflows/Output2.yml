@@ -3,7 +3,7 @@ on: push
 jobs:
   build:
     outputs:
-      version.${{steps.step1.outputs.version}}
+      version: ${{steps.step1.outputs.version}}
     runs-on: ububuntu-22.04
     steps:
       - name: build step
