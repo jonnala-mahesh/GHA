@@ -13,7 +13,7 @@ jobs:
     if: github.event_name == ' pull_request ' 
     steps:
       - name: build
-        run: echo " Building "
+        run: echo " Buildings "
   deploy:
     runs-on: ubuntu-latest
     if: github.event_name == 'push' || github.ref_name == 'devlop'
