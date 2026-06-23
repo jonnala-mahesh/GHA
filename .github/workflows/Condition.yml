@@ -13,4 +13,4 @@ jobs:
         run: echo " Run for main Branch "
       - name: Run this devlop
         if: github.ref_name == 'devlop'
-        run: echo " Run for devlop Branch "
+        run: echo " Run for devlop Branchs "
