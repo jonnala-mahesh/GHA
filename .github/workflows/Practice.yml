@@ -1,9 +1,0 @@
-name: Varibles
-on: push
-jobs:
-  Var:
-    runs-on: ubuntu-latest
-    steps:
-      - name: var step
-        run: echo "Welocome to ${{ vars.MY_NAME }} Username = Bobby and password ${{ secrets.MY_PASSWORD }}"
-      

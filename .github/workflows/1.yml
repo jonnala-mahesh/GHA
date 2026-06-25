@@ -1,8 +1,0 @@
-name: pull
-on: pull_request
-jobs:
-  pull:
-    runs-on: ubuntu-latest
-    steps:
-      - name: pull step
-        run: echo " this happeneds when pull request is raised "
